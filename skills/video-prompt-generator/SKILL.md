@@ -379,7 +379,7 @@ Ambil Part (opsional), Rasio (default 9:16), Narasi (wajib), Durasi (wajib), Kar
 10. Buat SPACE & DENSITY PLAN: tempatkan hero object, karakter, supporting objects, typography, dan environmental layers pada zona kiri/kanan/atas/tengah/bawah. Tentukan foreground, midground, dan background melalui layering kertas. Jangan biarkan area frame luas kosong tanpa fungsi; jangan pula memenuhi frame dengan dekorasi acak.
 11. Periksa bahwa setiap objek memiliki fungsi semantik, fungsi ruang, atau fungsi komposisi. Hapus objek yang tidak mendukung cerita, tetapi tambahkan detail kontekstual yang relevan jika adegan terasa terlalu sepi.
 12. Lakukan TYPOGRAPHY CUE EXTRACTION: identifikasi hero keyword, supporting keyword, angka/kuantitas, kata aksi, kata emosi, serta kata yang membentuk kontras atau konsekuensi. Pilih hanya kata yang benar-benar memperkuat makna; jangan menonjolkan setiap kata.
-13. Rancang 1–4 typography moments sesuai panjang frasa dan durasi beat. Setiap moment harus punya hierarchy, exact text, timing, placement, paper construction, color/contrast, entrance, highlight behavior, dan exit. Jumlah ini fleksibel: jangan memaksakan 2–4 momen jika durasi atau makna tidak mendukung.
+13. Rancang 1–4 penekanan/reveal tipografi sesuai panjang frasa dan durasi beat. Setiap reveal harus memiliki kata/frasa yang benar-benar akan terlihat, waktu kemunculan, posisi, hierarki, konstruksi kertas, warna/kontras, animasi masuk, perilaku highlight, dan cara keluar. Ini hanya perencanaan produksi; jangan pernah menampilkan judul, label urutan, nomor, atau nama tahap pada video.
 14. Pastikan typography reveal mengikuti urutan pengucapan dan tidak mendahului voice-over.
 15. Pilih objek berdasarkan makna aktual; jangan memasang objek acak pada kalimat.
 16. Pastikan karakter hanya muncul jika diperlukan dan konsisten.
@@ -463,28 +463,28 @@ Use a deliberate hierarchy when the phrase supports it:
 Do not force all three levels into every beat. A beat may use one dominant word, two complementary levels, or several moments if its meaning and duration justify them. Never style every word with identical size, weight, color, and placement.
 
 ### C. DYNAMIC MOMENT COUNT AND PACING
-- Normally aim for 2–4 distinct typography moments per beat when the narration and duration support them.
-- Use 1–2 moments for short phrases, simple statements, or very short beats.
-- Longer phrases may use additional moments only when there is enough screen time for each to be read and understood.
-- Do not force multiple moments into a beat that is too short; clarity and synchronization take priority over quantity.
-- A typography moment may emphasize a single word, a short exact phrase, or a meaningful number paired with its unit.
+- Normally aim for 2–4 distinct typography reveals per beat when the narration and duration support them.
+- Use 1–2 typography reveals for short phrases, simple statements, or very short beats.
+- Longer phrases may use additional typography reveals only when there is enough screen time for each to be read and understood.
+- Do not force multiple typography reveals into a beat that is too short; clarity and synchronization take priority over quantity.
+- A typography reveal may emphasize a single word, a short exact phrase, or a meaningful number paired with its unit.
 - Do not display all selected words simultaneously if progressive reveals would better follow the spoken phrase.
 
 ### D. REQUIRED TYPOGRAPHY CHOREOGRAPHY
-Inside the existing ### TYPOGRAPHY & HIGHLIGHT subsection, describe each selected typography moment as a production instruction. Do NOT use visible-looking production labels such as “TYPOGRAPHY MOMENT 01”, “TYPOGRAPHY MOMENT 02”, “MOMENT 1”, or numbered title cards. Do not copy these labels into the on-screen text field. The moment sequence is an internal planning device only.
+Inside the existing ### TYPOGRAPHY & HIGHLIGHT subsection, describe each typography reveal as a concise production direction. Never create a title, heading, identifier, sequence label, or numbered label for an individual reveal.
 
-Describe each moment using natural production-direction prose or concise bullets, for example:
-- Exact visible text: “[Exact word or phrase from narration]”
-- Reveal timing: [Approximate time within the beat; synchronized to the exact spoken word.]
-- Position: [Specific location and relationship to the hero object/character.]
-- Hierarchy and size: [Hero / Secondary / Accent; relative scale and visual dominance.]
-- Font character: [Bold editorial, condensed, rounded, handwritten, or other purposeful character.]
-- Paper construction: [Cut-paper letters, raised layered letters, white/cream backing, mounted label, or other thin-paper construction.]
-- Color and contrast: [Purposeful letter and backing colors with clear contrast.]
-- Entrance animation: [Specific physical paper movement.]
-- Highlight behavior: [How scale, color, layer separation, backing, or a brief physical bounce emphasizes the word.]
-- Exit behavior: [How it settles, transforms, or physically leaves before the next beat when needed.]
-When there are multiple moments, separate them with spacing or neutral bullets only; do not create numbered on-screen headings. All field names and production descriptions above are instructions for the video model, not elements to render. Only the value under “Exact visible text” is eligible to appear as typography, and it must match the narration or explicitly requested text exactly. Never display the words “TYPOGRAPHY MOMENT”, “HERO”, “SECONDARY”, “ACCENT”, “Reveal timing”, “Position”, “Hierarchy”, “Font character”, “Paper construction”, “Color and contrast”, “Entrance animation”, “Highlight behavior”, or “Exit behavior” unless the user independently included those exact words in the narration and they are intentionally selected as on-screen text.
+For each reveal, provide these details as plain production instructions, without printing the field names as visible content:
+- The exact word or phrase from the narration that is allowed to appear.
+- Its approximate appearance time, synchronized with the corresponding spoken word.
+- Its position in relation to the hero object or character.
+- Its hierarchy and relative size.
+- Its purposeful font character.
+- Its thin-paper construction and backing.
+- Its color and contrast.
+- Its physical entrance animation.
+- Its highlight behavior.
+- Its exit, settling, or transformation behavior.
+Separate successive instructions with ordinary prose or neutral bullets only. Do not prefix them with titles, labels, identifiers, counters, digits, or sequence markers. Production directions and field descriptions are never visible content. Only the exact narration word/phrase explicitly selected for display may appear in the generated video. Never turn production instructions, headings, field names, timing notes, or labels into signs, cards, posters, captions, subtitles, or paper objects.
 
 ### E. VISUAL VARIATION AND PHYSICAL PAPER ANIMATION
 Vary typography treatment according to meaning and composition. Possible treatments include:
@@ -536,7 +536,7 @@ Use varied but controlled physical movements such as slide, assemble, unfold, ri
 
 ### J. PRODUCTION METADATA — NEVER RENDER AS VISIBLE TEXT
 - The prompt contains production instructions, labels, headings, field names, sequence markers, numbering, and placeholders to guide generation. They are NOT part of the scene and are NEVER visible typography.
-- Never render, print, write, display, subtitle, caption, or reproduce “TYPOGRAPHY MOMENT 01/02/03”, “MOMENT 1/2/3”, “BEAT 01/02”, “HERO”, “SECONDARY”, “ACCENT”, “VOICE-OVER PHRASE”, “SEMANTIC MEANING”, “TRANSITION IN”, “TRANSITION OUT”, “VISUAL”, “MOTION”, “TIME”, or any other prompt/production label.
+- Never render, print, write, display, subtitle, caption, or reproduce any production heading, reveal identifier, sequence counter, beat number, hierarchy label, field name, or instruction label. This includes numbered or unnumbered titles used internally to organize typography directions.
 - Never turn headings, bullet labels, timestamps, beat numbers, timing notes, or explanatory text into signs, cards, posters, captions, or paper objects.
 - Only text explicitly identified as exact on-screen text may be rendered. It must be an exact word/phrase from the user narration, text explicitly requested by the user, or required Arabic religious typography under the existing rules.
 - If there is any ambiguity about whether a word is production metadata or intended visible text, treat it as production metadata and DO NOT render it.
@@ -677,7 +677,7 @@ Sebelum output, periksa diam-diam seluruh 55 poin berikut. Jika satu saja gagal,
 52. Hero object, supporting objects, character, and typography have a clear spatial hierarchy and do not all cluster in the center.
 53. If a beat feels visually sparse, relevant contextual objects or environmental details have been added; no random decorative filler has been introduced.
 54. Visual density feels rich, complete, and alive without becoming cluttered, confusing, or semantically inaccurate.
-55. No production metadata, typography-moment labels, beat numbers, section headings, field names, placeholders, timestamps, or instruction labels appear as visible text; only explicitly authorized exact on-screen text is rendered.
+55. No production metadata, typography-reveal labels, beat numbers, section headings, field names, placeholders, timestamps, or instruction labels appear as visible text; only explicitly authorized exact on-screen text is rendered.
 
 ## 20. OUTPUT TARGETS — GOOGLE VEO / FLOW AND OMNI FLASH
 
