@@ -1,0 +1,21 @@
+{
+  "interface": {
+    "displayName": "One Click Cinematic Paper V1.1",
+    "shortDescription": "AI Prompt Video Generator",
+    "longDescription": "Generate consistent Cinematic Paper Editorial prompts from video part, aspect ratio, narration, duration, and character. Uses the fixed Prompt 1 structure, clean ivory opening, semantic paper-cut beats, faceless 2D character locks, static camera, physical transitions, verbatim voice-over, and strict quality validation.",
+    "developerName": "Plugin author",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": "Assalamu\u2019alaikum. Silakan isi data video berikut:\n\nISI DATA VIDEO: [Part/nomor video, jika ada]\nRasio: [9:16 / 16:9 / 1:1 / lainnya]\nNarasi: [tempel narasi lengkap]\nDurasi Video: [mis. 30 detik]\nKarakter: [deskripsi karakter lengkap atau \u2018gunakan karakter default\u2019]\n\nKirim data tersebut. Saya akan langsung menyusun FULL VIDEO PROMPT sesuai format Cinematic Paper Editorial."
+  },
+  "name": "one-click-cinematic-paper-v1.1",
+  "version": "0.1.1",
+  "description": "AI Prompt Video Generator with fixed Prompt 1 structure, required narration and duration, clean ivory opening, semantic paper-cut beats, faceless 2D characters, static camera, physical transitions, verbatim voice-over, and a 31-point quality gate.",
+  "author": {
+    "name": "Plugin author"
+  },
+  "keywords": [],
+  "skills": "./skills"
+}
